@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DreamCloud Development,
+  title: 'DreamCloud Development',
   tagline: 'The only coders really in the clouds',
   favicon: 'img/favicon.ico',
 
