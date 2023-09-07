@@ -64,7 +64,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'DreamCloud Development,
+        title: 'DreamCloud Development',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
