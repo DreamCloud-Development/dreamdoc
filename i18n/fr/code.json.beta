@@ -1,5 +1,4 @@
 {
-  // No ID for the <Translate> component: the default message is used as ID
   "Welcome to my website": {
     "message": "Welcome to my website"
   },
