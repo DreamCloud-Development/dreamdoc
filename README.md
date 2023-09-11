@@ -1,44 +1,24 @@
-# DreamDoc 
-#### WIP
+# Docusaurus GitHub
+<a href="https://github.com/Funasitien/docausorus-gh/generate">
+  <img src="https://img.shields.io/badge/use%20this-template-blue?logo=github&style=for-the-badge">
+</a>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+#### Automaticly create a Docusaurus website with GitHub Action & GitHub Pages
 
-Try to deploy it btw. fuf
+
+Ever wanted a doc website easy to build ? With this template, you can generate a [Docusaurus 2](https://docusaurus.io/) in one click !
 
 ### Installation
 
-```
-$ yarn
-```
+First, [create a repo with this template](https://github.com/Funasitien/docausorus-gh/generate). Then, you have to enable GitHub Pages in your repo settings and edit the docusaurus.config.js file to match your repo!
 
-### Local Development
+If you want to add a custom domain, create a File named `CNAME` in the `static` folder and put in this file the domain you want to use
 
-```
-$ yarn start
-```
+### And that's it!
+If you like this template, please add a Star to it, it would help us ! 
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+![GitHub Repo stars](https://img.shields.io/github/stars/Funasitien/docausorus-gh?style=for-the-badge&label=%E2%9C%A8%EF%B8%8F%20Stars&color=yellow)
 
-```
-$ yarn build
-```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
