@@ -20,7 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   // If you use CNAME Record, you can disable this
   organizationName: 'DreamCloud-Development', // Usually your GitHub org/user name.
-  projectName: 'dreamcod', // Usually your repo name.
+  projectName: 'dreamdoc', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -44,7 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/DreamCloud-Development/dreamdoc/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/DreamCloud-Development/dreamdoc/tree/main/',
         },
         blog: {
           showReadingTime: true,
