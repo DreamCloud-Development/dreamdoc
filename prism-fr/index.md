@@ -18,10 +18,10 @@ Ce launcher est une modification du code de PrismLauncher, un launcher minecraft
 # Avant de commencer
 Il vous faut :
 - Java JDK 17
-- Un fichier d'instalation Prism (Prism Officiel ou PrismUnlocked). Pour PrismUnlocked, les liens de téléchargement sont [en bas de la page]().
+- Un fichier d'instalation Prism (Prism Officiel ou PrismUnlocked). Pour PrismUnlocked, les liens de téléchargement sont [en bas de la page](#téléchargements).
 
 # Installer Java JDK 17
-#### Si vous avez dejà Java sur votre ordinateur, vous pouvez passer à [l'étape suivante]().
+#### Si vous avez dejà Java sur votre ordinateur, vous pouvez passer à [l'étape suivante](#installer-prism).
 Il vous faut java pour pouvoir lancer Minecraft. L'instalation de java est plutot simple.
 1. Installer le fichier de téléchargement Java pour votre version [ici](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
    - Si vous êtes sur Windows, choisissez **Windows x64 Installer** ou **Windows MSI Installer**.
