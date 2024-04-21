@@ -1,0 +1,78 @@
+site_name: DreamCloud's Docs
+theme:
+  name: material
+  custom_dir: overrides
+  language: fr
+  logo: assets/logo.png
+  favicon: assets/logo.png
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: cyan
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Pixelify Sans
+  
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    
+
+
+extra:
+  homepage: https://dreamclouds.fr
+  consent:
+    title: 🍪 Cookies
+    description: >- 
+      Nous utilisons les cookies pour enregstrer votre thème et
+      sauvegarder des donnés sur vos recherches pour permettre une
+      meilleur efficacité sur notre site web.
+      Nous n'enregistrons ou collectons aucunes données personnelles !
+      #CookieFreedom 
+    actions:
+      - accept
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
+
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://dsc.gg/drmcld
+    - icon: material/web
+      link: https://dreamclouds.fr
+
+  
+  generator: false
+
+copyright: >-
+  Copyright &copy; 2016 - 2024 Funasitien DreamCloud –
+  <a href="#__consent">Modifier les paramètres Cookies</a>
+
+
+plugins:
+  - search
+  - tags:
+      tags_file: tags.md 
+
+markdown_extensions:
+  - attr_list
